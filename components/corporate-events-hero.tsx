@@ -6,7 +6,7 @@ export default function CorporateEventsHero() {
         <section className="relative pb-24 pt-40">
             <div className="absolute inset-0 z-0">
                 <Image
-                    src="/home-page-slides//paycom_fa24.jpeg"
+                    src="/home-page-slides/paycom_fa24.jpeg"
                     alt=""
                     fill
                     priority
