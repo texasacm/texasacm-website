@@ -80,13 +80,13 @@ export default function EventsSection({
                                         <DialogHeader className="sr-only">
                                             <DialogTitle>Event Flyer</DialogTitle>
                                         </DialogHeader>
-                                        <div className="flex justify-center">
+                                        <div className="relative h-[70vh] w-full">
                                             <Image
                                                 src={image.src}
                                                 alt={image.alt}
-                                                width={0}
-                                                height={0}
-                                                className="h-auto w-auto rounded-lg"
+                                                fill
+                                                sizes="(max-width: 768px) 100vw, 800px"
+                                                className="rounded-lg object-contain"
                                             />
                                         </div>
                                     </DialogContent>
@@ -129,13 +129,13 @@ export default function EventsSection({
                                     <DialogHeader className="sr-only">
                                         <DialogTitle>Event Image</DialogTitle>
                                     </DialogHeader>
-                                    <div className="flex justify-center">
+                                    <div className="relative h-[75vh] w-full">
                                         <Image
                                             src={signatureImage.src}
                                             alt={signatureImage.alt}
-                                            width={0}
-                                            height={0}
-                                            className="h-auto w-auto rounded-lg"
+                                            fill
+                                            sizes="(max-width: 768px) 100vw, 1024px"
+                                            className="rounded-lg object-contain"
                                         />
                                     </div>
                                 </DialogContent>
