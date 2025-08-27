@@ -26,16 +26,22 @@ const currentPartners: Partner[] = [
         url: 'https://www.dell.com',
     },
     {
+        name: 'FUTO',
+        logo: '/partners/futo.svg',
+        tier: 'Gold',
+        url: 'https://futo.org/',
+    },
+    {
         name: 'Paycom',
         logo: '/partners/paycom.png',
         tier: 'Gold',
         url: 'https://www.paycom.com',
     },
     {
-        name: 'FUTO',
-        logo: '/partners/futo.svg',
+        name: 'PwC',
+        logo: '/partners/pwc.png',
         tier: 'Gold',
-        url: 'https://futo.org/',
+        url: 'https://www.pwc.com',
     },
 ];
 
