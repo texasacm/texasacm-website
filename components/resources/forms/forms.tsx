@@ -1,12 +1,13 @@
 import { Card, CardContent, CardFooter, CardHeader, CardTitle } from '@/components/ui/card';
 import {
     IM_SPORTS_SIGNUP_URL,
+    MENTEE_APPLICATION_URL,
     MENTOR_APPLICATION_URL,
     OO_APPLICATION_URL,
     SIGNIN_URL,
     WORKSHOP_INTEREST_FORM_URL,
 } from '@/lib/constants';
-import { Award, ExternalLink, LogIn, School, User, Users, Volleyball } from 'lucide-react';
+import { Award, ExternalLink, LogIn, School, Users, Volleyball } from 'lucide-react';
 import Link from 'next/link';
 
 type FormItem = {
@@ -38,13 +39,6 @@ const pinnedForms: FormItem[] = [
 
 const latestForms: FormItem[] = [
     {
-        icon: <Users size={28} className="text-indigo-500" />,
-        title: 'Mentorship Sign Up',
-        description: 'Sign up here to become a mentor/mentee for the Texas ACM Mentorship Program.',
-        link: { name: 'Sign Up', href: MENTOR_APPLICATION_URL },
-        dateAdded: '08/25/2025',
-    },
-    {
         icon: <Volleyball size={28} className="text-purple-500" />,
         title: 'Intramural Sports Sign Up',
         description: 'Want to play sports for Texas ACM? Sign up here! ',
@@ -60,6 +54,22 @@ const latestForms: FormItem[] = [
         link: { name: 'Show Your Interest', href: WORKSHOP_INTEREST_FORM_URL },
         dateAdded: '08/25/2025',
         deadline: 'Sunday, September 8th @ 11:59pm',
+    },
+    {
+        icon: <Users size={28} className="text-indigo-500" />,
+        title: 'Mentor Sign Up',
+        description: 'Sign up here to become a mentor for the Texas ACM Mentorship Program.',
+        link: { name: 'Sign Up', href: MENTOR_APPLICATION_URL },
+        dateAdded: '08/27/2025',
+        deadline: 'Friday, September 19th @ 11:59pm',
+    },
+    {
+        icon: <Users size={28} className="text-indigo-500" />,
+        title: 'Mentee Sign Up',
+        description: 'Sign up here to become a mentee for the Texas ACM Mentorship Program.',
+        link: { name: 'Sign Up', href: MENTEE_APPLICATION_URL },
+        dateAdded: '08/27/2025',
+        deadline: 'Friday, September 19th @ 11:59pm',
     },
 ];
 
