@@ -26,6 +26,12 @@ const currentPartners: Partner[] = [
         url: 'https://www.dell.com',
     },
     {
+        name: 'Accenture',
+        logo: '/partners/accenture.png',
+        tier: 'Gold',
+        url: 'https://www.accenture.com',
+    },
+    {
         name: 'FUTO',
         logo: '/partners/futo.svg',
         tier: 'Gold',
