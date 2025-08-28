@@ -1,5 +1,6 @@
 import { Card, CardContent, CardFooter, CardHeader, CardTitle } from '@/components/ui/card';
 import {
+    CORPORATE_BANQUET_RSVP_URL,
     IM_SPORTS_SIGNUP_URL,
     MENTEE_APPLICATION_URL,
     MENTOR_APPLICATION_URL,
@@ -70,6 +71,14 @@ const latestForms: FormItem[] = [
         link: { name: 'Sign Up', href: MENTEE_APPLICATION_URL },
         dateAdded: '08/27/2025',
         deadline: 'Friday, September 19th @ 11:59pm',
+    },
+    {
+        icon: <Users size={28} className="text-indigo-500" />,
+        title: 'Industry Banquet RSVP',
+        description: 'RSVP for the Industry Banquet!',
+        link: { name: 'Sign Up', href: CORPORATE_BANQUET_RSVP_URL },
+        dateAdded: '08/28/2025',
+        deadline: 'Wednesday, September 10th @ 11:59pm',
     },
 ];
 

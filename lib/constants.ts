@@ -5,3 +5,4 @@ export const MENTOR_APPLICATION_URL = 'https://forms.gle/hvm3rGmRD2cDzakD9';
 export const MENTEE_APPLICATION_URL = 'https://forms.gle/pfptvwfc7k7bgcyZ6';
 export const IM_SPORTS_SIGNUP_URL = 'https://forms.gle/jVPQ2nd2nvPxKVD7A';
 export const WORKSHOP_INTEREST_FORM_URL = 'https://forms.gle/6JbYaY9QP394xssd6';
+export const CORPORATE_BANQUET_RSVP_URL = 'https://forms.gle/n43WFtAZrfAveVGk7';
