@@ -37,6 +37,30 @@ const FeaturedEvents: React.FC<FeaturedEventsProps> = ({ events = [] }) => {
                     <Button asChild>
                         <Link href="/calendar">View Past Events</Link>
                     </Button>
+                    <div className="mt-8">
+                        <h3 className="mb-4 text-lg font-semibold">Add Our Events Calendar</h3>
+                        <div className="flex flex-col justify-center gap-4 sm:flex-row">
+                            <Button asChild className="flex items-center gap-2">
+                                <a
+                                    href="https://calendar.google.com/calendar/u/0/r?cid=utacm.org_tblt9l9gskpcunjovsjfh8ei0g@group.calendar.google.com"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    <CalendarIcon className="h-4 w-4" />
+                                    Add to Google Calendar
+                                </a>
+                            </Button>
+                            <Button asChild variant="outline">
+                                <a
+                                    href="https://calendar.google.com/calendar/ical/utacm.org_tblt9l9gskpcunjovsjfh8ei0g%40group.calendar.google.com/public/basic.ics"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    Download iCal (.ics) File
+                                </a>
+                            </Button>
+                        </div>
+                    </div>
                 </div>
             </section>
         );
@@ -102,6 +126,30 @@ const FeaturedEvents: React.FC<FeaturedEventsProps> = ({ events = [] }) => {
                     <Button asChild>
                         <Link href="/calendar">View All Events</Link>
                     </Button>
+                    <div className="mt-8">
+                        <h3 className="mb-4 text-lg font-semibold">Add Our Events Calendar</h3>
+                        <div className="flex flex-col justify-center gap-4 sm:flex-row">
+                            <Button asChild className="flex items-center gap-2">
+                                <a
+                                    href="https://calendar.google.com/calendar/u/0/r?cid=utacm.org_tblt9l9gskpcunjovsjfh8ei0g@group.calendar.google.com"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    <CalendarIcon className="h-4 w-4" />
+                                    Add to Google Calendar
+                                </a>
+                            </Button>
+                            <Button asChild variant="outline">
+                                <a
+                                    href="https://calendar.google.com/calendar/ical/utacm.org_tblt9l9gskpcunjovsjfh8ei0g%40group.calendar.google.com/public/basic.ics"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    Download iCal (.ics) File
+                                </a>
+                            </Button>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
