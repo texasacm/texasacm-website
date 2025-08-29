@@ -1,6 +1,5 @@
-// app/components/FeaturedEvents.tsx
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
-import { format } from 'date-fns';
+import { formatInTimeZone } from 'date-fns-tz';
 import { CalendarIcon } from 'lucide-react';
 import Link from 'next/link';
 import React from 'react';
@@ -74,10 +73,15 @@ const FeaturedEvents: React.FC<FeaturedEventsProps> = ({ events = [] }) => {
                                         <div className="flex items-center gap-2 text-sm text-gray-500">
                                             <CalendarIcon className="h-4 w-4" />
                                             <span>
-                                                {format(startDate, 'MMMM d, yyyy')}
+                                                {formatInTimeZone(
+                                                    startDate,
+                                                    'America/Chicago',
+                                                    'MMMM d, yyyy',
+                                                )}
                                                 {event.start.dateTime && endDate
-                                                    ? ` • ${format(startDate, 'h:mm a')} - ${format(
+                                                    ? ` • ${formatInTimeZone(startDate, 'America/Chicago', 'h:mm a')} - ${formatInTimeZone(
                                                           endDate,
+                                                          'America/Chicago',
                                                           'h:mm a',
                                                       )}`
                                                     : ''}
