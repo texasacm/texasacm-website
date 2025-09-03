@@ -9,7 +9,7 @@ import {
 } from '@/components/ui/dialog';
 import Image from 'next/image';
 import React from 'react';
-import { FaGithub, FaInstagram, FaLinkedin, FaTwitter } from 'react-icons/fa';
+import { FaGithub, FaGlobe, FaInstagram, FaLinkedin } from 'react-icons/fa';
 
 interface SocialLink {
     url: string;
@@ -32,7 +32,7 @@ const officers: Officer[] = [
         name: 'Nidhi Pabbathi',
         position: 'President',
         image: '/nidhi.jpg',
-        bio: 'Hey everyone! I’m Nidhi and I’m from Allen, Texas. I’m a Senior Computer Science major minoring in Business🤘🐮🧡. In my free time I like to crochet 🧶 and paint 🎨, and I also really love pigs 🐷 and Minecraft 🐓🧟! ',
+        bio: 'Hey everyone! I’m Nidhi and I’m from Allen, Texas. I’m a Senior Computer Science major minoring in Business🤘🐮🧡. In my free time I like to crochet 🧶 and paint 🎨, and I also really love pigs 🐷 and Minecraft 🐓🧟!',
         socials: [
             {
                 url: 'https://linkedin.com/in/nidhi-pabbathi',
@@ -222,19 +222,19 @@ const officers: Officer[] = [
         name: 'Suhas Voolla',
         position: 'Corporate Officer',
         image: '/suhas.jpg',
-        bio: 'Junior double-majoring in Computer Science and Mathematics.',
+        bio: "Hey y'all, I'm Suhas. I'm from Austin, TX and I'm a sophomore at UT studying CS with minors in Business and Robotics (soon). I enjoy flying drones, listening to music, and doomscrolling.",
         socials: [
             {
-                url: 'https://twitter.com/jordanlee',
-                icon: <FaTwitter size={20} />,
-                name: 'Twitter',
-            },
-            {
-                url: 'https://linkedin.com/in/jordanlee',
+                url: 'https://linkedin.com/in/suhasvoolla',
                 icon: <FaLinkedin size={20} />,
                 name: 'LinkedIn',
             },
-            { url: 'https://github.com/jordanlee', icon: <FaGithub size={20} />, name: 'GitHub' },
+            {
+                url: 'https://instagram.com/probablysuhas',
+                icon: <FaInstagram size={20} />,
+                name: 'Instagram',
+            },
+            { url: 'https://suhas.one/', icon: <FaGlobe size={20} />, name: 'Website' },
         ],
     },
     {
@@ -254,19 +254,18 @@ const officers: Officer[] = [
         name: 'Rishabh Mittal',
         position: 'Internal Officer',
         image: '/rishabh.png',
-        bio: 'Junior double-majoring in Computer Science and Mathematics.',
+        bio: "Hey everyone! My name's Rishabh, and I'm from Sugar Land, TX. I'm a Junior CS Major at UT (Go Longhorns!). I love biking, photography, playing video games (especially Geometry Dash🟨∆∆∆, SSBU🗡, & Minecraft⛏️), and am looking forward to meeting all y'all! :D",
         socials: [
             {
-                url: 'https://twitter.com/jordanlee',
-                icon: <FaTwitter size={20} />,
-                name: 'Twitter',
-            },
-            {
-                url: 'https://linkedin.com/in/jordanlee',
+                url: 'https://www.linkedin.com/in/rishabh-mittal-cs/',
                 icon: <FaLinkedin size={20} />,
                 name: 'LinkedIn',
             },
-            { url: 'https://github.com/jordanlee', icon: <FaGithub size={20} />, name: 'GitHub' },
+            {
+                url: 'https://www.instagram.com/lil_mittal/',
+                icon: <FaInstagram size={20} />,
+                name: 'Instagram',
+            },
         ],
     },
     {
