@@ -10,7 +10,8 @@ export default function AtoZHero() {
                     <BookOpen className="mx-auto mb-4 h-12 w-12 text-white" />
                     <h1 className="mb-4 text-4xl font-bold text-white">CS A to Z</h1>
                     <p className="text-xl text-white/90">
-                        A comprehensive dictionary of CS terms for new Computer Science students at UT Austin.
+                        A comprehensive dictionary of CS terms for new Computer Science students at
+                        UT Austin.
                     </p>
                 </div>
             </div>

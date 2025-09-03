@@ -242,26 +242,6 @@ export default function UsefulInformation() {
                                 </ul>
                             </li>
                             <li>
-                                <strong>CS Pod Mentor:</strong> Run weekly CS Pods for first-year
-                                students
-                                <ul className="mt-2 list-[circle] pl-6">
-                                    <li>4-5 hrs/week</li>
-                                    <li>
-                                        Applications typically open in the spring semester{' '}
-                                        <Link
-                                            href={
-                                                'https://www.cs.utexas.edu/undergraduate-program/student-support/first-year-connections/cs-pods'
-                                            }
-                                            target="_blank"
-                                            rel="noopener noreferrer"
-                                            className="text-primary hover:text-primary/80 hover:underline"
-                                        >
-                                            here
-                                        </Link>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li>
                                 <strong>CS Ambassador:</strong> Host tours of the GDC with students
                                 and their families
                             </li>
@@ -310,7 +290,7 @@ export default function UsefulInformation() {
                 </div>
             </CollapsibleInfo>
 
-            <CollapsibleInfo title="Upperclassmen Good to Knows">
+            <CollapsibleInfo title="Upperclassmen Good-to-Knows">
                 <div className="space-y-4">
                     <div>
                         <h3 className="mb-2 text-lg font-medium text-gray-800">
@@ -372,7 +352,7 @@ export default function UsefulInformation() {
                 </div>
             </CollapsibleInfo>
 
-            <CollapsibleInfo title="Graduate School Good to Knows">
+            <CollapsibleInfo title="Graduate School Good-to-Knows">
                 <div className="space-y-4">
                     <div>
                         <h3 className="mb-2 text-lg font-medium text-gray-800">
